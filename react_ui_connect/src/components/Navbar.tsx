@@ -3,7 +3,7 @@ import { TonConnectButton } from "@tonconnect/ui-react";
 export default function Navbar() {
   return (
     <>
-      <div className="absolute left-0 my-5 ml-[200px]">
+      <div className="absolute left-0 my-5 ml-4 md:ml-20 lg:ml-40">
         <svg>
           <path
             d="M16.5962 21.8378C16.749 21.7318 16.9605 21.7998 17.0232 21.9753L19.3984 28.6205C19.4747 28.8342 19.2823 29.0467 19.0629 28.991L10.3178 26.7687C10.0826 26.709 10.0268 26.3993 10.2263 26.2608L16.5962 21.8378Z"
@@ -93,7 +93,7 @@ export default function Navbar() {
           </defs>
         </svg>
       </div>
-      <div className="absolute right-0 my-4 mr-[200px]">
+      <div className="absolute right-0 my-4 mr-4 md:mr-20 lg:mr-40">
         <TonConnectButton />
       </div>
     </>

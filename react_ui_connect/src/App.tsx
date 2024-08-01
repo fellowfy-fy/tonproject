@@ -38,15 +38,15 @@ function App() {
       <div className="w-full h-[75px] bg-[#111113] border-b border-[#353637] fixed">
         <Navbar />
       </div>
-      <StakePage />
+      <div className="pt-[75px]">
+        <StakePage />
+      </div>
       {publicKey ? (
-        <div className="bg-[#111113]">
+        <div className="bg-[#111113] p-4">
           <AdminComponent />
         </div>
-      ) : (
-        <></>
-      )}
-      <div className="w-full bg-[#111113]">
+      ) : null}
+      <div className="w-full bg-[#111113] p-4">
         <Footer />
       </div>
     </section>

@@ -1,9 +1,9 @@
 export default function WalletOptions() {
   return (
     <div>
-      <h1 className="font-bold text-3xl mb-10">Overview</h1>
-      <div className="grid grid-cols-4 gap-8">
-        <div className="col-span-1 border border-[#353637] rounded-xl p-4 hover:border-[#444b4b] hover:cursor-pointer">
+      <h1 className="font-bold text-2xl sm:text-3xl mb-6 sm:mb-10">Overview</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
+        <div className="border border-[#353637] rounded-xl p-4 hover:border-[#444b4b] hover:cursor-pointer">
           <div className="w-[24px] h-auto mb-4">
             <svg
               width="24"
@@ -30,10 +30,10 @@ export default function WalletOptions() {
               />
             </svg>
           </div>
-          <p className="text-lg">STON Price</p>
-          <p className="font-bold text-xl">$12.09</p>
+          <p className="text-base sm:text-lg">STON Price</p>
+          <p className="font-bold text-lg sm:text-xl">$12.09</p>
         </div>
-        <div className="col-span-1 border border-[#353637] rounded-xl p-4 hover:border-[#444b4b] hover:cursor-pointer">
+        <div className="border border-[#353637] rounded-xl p-4 hover:border-[#444b4b] hover:cursor-pointer">
           <div className="w-[24px] h-auto mb-4">
             <svg
               width="24"
@@ -50,10 +50,11 @@ export default function WalletOptions() {
               ></path>
             </svg>
           </div>
-          <p className="text-lg">Total staked STON</p>
-          <p className="font-bold text-xl">21 188 608.7495</p>
+          <p className="text-base sm:text-lg">Total staked STON</p>
+          <p className="font-bold text-lg sm:text-xl">21 188 608.7495</p>
         </div>
-        <div className="col-span-1 border border-[#353637] rounded-xl p-4 hover:border-[#444b4b] hover:cursor-pointer">
+
+        <div className="border border-[#353637] rounded-xl p-4 hover:border-[#444b4b] hover:cursor-pointer">
           <div className="w-[24px] h-auto mb-4">
             <svg
               width="24"
@@ -74,10 +75,11 @@ export default function WalletOptions() {
               ></path>
             </svg>
           </div>
-          <p className="text-lg">STON total supply</p>
-          <p className="font-bold text-xl">99 999 999.8765</p>
+          <p className="text-base sm:text-lg">STON total supply</p>
+          <p className="font-bold text-lg sm:text-xl">99 999 999.8765</p>
         </div>
-        <div className="col-span-1 border border-[#353637] rounded-xl p-4 hover:border-[#444b4b] hover:cursor-pointers">
+
+        <div className="border border-[#353637] rounded-xl p-4 hover:border-[#444b4b] hover:cursor-pointer">
           <div className="w-[24px] h-auto mb-4">
             <svg
               width="24"
@@ -94,8 +96,8 @@ export default function WalletOptions() {
               ></path>
             </svg>
           </div>
-          <p className="text-lg">GEMSTON total supply</p>
-          <p className="font-bold text-xl">10 814 563.015</p>
+          <p className="text-base sm:text-lg">GEMSTON total supply</p>
+          <p className="font-bold text-lg sm:text-xl">10 814 563.015</p>
         </div>
       </div>
     </div>
